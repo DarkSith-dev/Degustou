@@ -1,0 +1,79 @@
+.Menu{
+    width: 100%;
+    height: 100%;
+}
+
+.container-menu{
+    width: 100%;
+    height: 100vh;
+
+}
+
+.Cardapio{
+    position: relative;
+    top: 5rem;
+    justify-content: center;
+    max-width: 500px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--color-grayish-white);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.Introduction-menu{
+    font-family: var(--font-tertiary);
+    font-size: 2.5rem;
+    text-align: center;
+    color: #333;
+}
+
+.entradas{
+    margin-bottom: 20px;
+}
+
+.entradas h2{
+    color: #555;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+
+
+.Pratos-Principais{
+    margin-bottom: 20px;
+}
+
+.Pratos-Principais h2{
+    color: #555;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+
+.Sobremesas{
+    margin-bottom: 20px;
+}
+
+
+.Sobremesas h2{
+    color: #555;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+
+.item {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .item-name {
+    flex: 1;
+  }
+  
+  .item-price {
+    font-weight: bold;
+  }

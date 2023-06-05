@@ -1,13 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans&family=Parisienne&family=Playfair+Display&display=swap%27');
+
+:root{
+    --font-first:"Parisienne" ;
+    --font-second:"Open Sabs";
+    --font-third:"Great Vibes";
+    --font-action:"Archivo Black";
+
+    --color-golden: #ecb365;
+    --color-gray: #3b3a3a;
+    --color-grayish-white:rgb(248, 248, 248);
+    --color-white: #FFFFFF;
+    --color-blue:#141a26,
+    --color-grayish-blue: #212e40,
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
 }
